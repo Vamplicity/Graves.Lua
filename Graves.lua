@@ -9,6 +9,8 @@ else
 game.Players.LocalPlayer:Kick("Not Whitelisted!")--Not whitelisted
 end
 
+local Lib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/BoredStuff2/notify-lib/main/lib'),true))()
+
 Lib.prompt('Graves.Lua', 'User - Authenticated', 1.5)
 wait(2)
 
