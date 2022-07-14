@@ -7,17 +7,20 @@ local userids = loadstring(game:HttpGet("https://pastebin.com/raw/tJLkEN5m", tru
 if userids[game.Players.LocalPlayer.UserId] then
 print(".")--Whitelisted
 else
---Not whitelisted
+--Not whitelisted 
+
+Lib.prompt('Graves.Lua', 'User - Not-Whitelisted', 2.5)
+       
+game.Players.LocalPlayer:Kick("User Not Whitelisted.")
+
 local function gC()          
 while true do
     print("Crashed")
 end
 end   
 gC() 
-          
-game.Players.LocalPlayer:Kick("User Not Whitelisted.")
-end
 
+end
 
 Lib.prompt('Graves.Lua', 'User - Authenticated', 1.5)
 wait(2)
