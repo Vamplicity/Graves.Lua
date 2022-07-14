@@ -3,7 +3,7 @@ local Lib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/BoredStu
 Lib.prompt('Graves.Lua', 'Checking - User', 1.5)
 wait(1.5)
 
-local userids = loadstring(game:HttpGet("https://pastebin.com/raw/JzJaPeUY", true))()
+local userids = loadstring(game:HttpGet("https://pastebin.com/raw/tJLkEN5m", true))()
 if userids[game.Players.LocalPlayer.UserId] then
 print(".")--Whitelisted
 else
