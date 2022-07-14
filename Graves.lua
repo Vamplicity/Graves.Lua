@@ -10,8 +10,10 @@ else
 --Not whitelisted 
 
 Lib.prompt('Graves.Lua', 'User - Not-Whitelisted', 2.5)
+wait(1)
        
 game.Players.LocalPlayer:Kick("User Not Whitelisted.")
+wait(1.5)
 
 local function gC()          
 while true do
