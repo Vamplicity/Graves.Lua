@@ -24,14 +24,14 @@ gC()
 
 end
 
-Lib.prompt('Graves.Lua', 'User - Authenticated', 1.5)
-wait(2)
+Lib.prompt('Graves.Lua', 'User - Authenticated', 1)
+wait(1.5)
 
-Lib.prompt('Graves.Lua', 'Script - Loading', 1.5)
-wait(2)
+Lib.prompt('Graves.Lua', 'Script - Loading', 1)
+wait(1)
 
 Lib.prompt('Graves.Lua', 'Script Loaded - Successfully', 1.5)
-wait(2)
+wait(0.5)
 
 local Config = {
     WindowName = "Graves.Lua (V-1.2)",
