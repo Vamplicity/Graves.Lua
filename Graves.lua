@@ -5,10 +5,10 @@ wait(1.5)
 
 local userids = loadstring(game:HttpGet("https://pastebin.com/raw/JzJaPeUY", true))()
 if userids[game.Players.LocalPlayer.UserId] then
---Whitelisted
+print(".")--Whitelisted
 else
 --Not whitelisted
-game.Players.LocalPlayer:Kick("User Not Whitelisted!")
+game.Players.LocalPlayer:Kick("User Not Whitelisted.")
 end
 
 
