@@ -8,6 +8,7 @@ if userids[game.Players.LocalPlayer.UserId] then
 print(".")--Whitelisted
 else
 --Not whitelisted
+wait(60)
 game.Players.LocalPlayer:Kick("User Not Whitelisted.")
 end
 
