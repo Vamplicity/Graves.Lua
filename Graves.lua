@@ -2,11 +2,12 @@ local Lib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/BoredStu
 Lib.prompt('Graves.Lua', 'Checking - User', 2.5)
 wait(3.5)
 
-local userids = loadstring(game:HttpGet("https://pastebin.com/raw/tJLkEN5m", true))()
+local userids = loadstring(game:HttpGet("https://pastebin.com/raw/JzJaPeUY", true))()
 if userids[game.Players.LocalPlayer.UserId] then
-
+--Whitelisted
 else
-game.Players.LocalPlayer:Kick("Not Whitelisted!")--Not whitelisted
+--Not whitelisted
+game.Players.LocalPlayer:Kick("User Not Whitelisted!")
 end
 
 local Lib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/BoredStuff2/notify-lib/main/lib'),true))()
