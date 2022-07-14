@@ -1,3 +1,7 @@
+local Lib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/BoredStuff2/notify-lib/main/lib'),true))()
+Lib.prompt('Graves.Lua', 'Checking - User', 2.5)
+wait(3.5)
+
 local userids = loadstring(game:HttpGet("https://pastebin.com/raw/tJLkEN5m", true))()
 if userids[game.Players.LocalPlayer.UserId] then
 
