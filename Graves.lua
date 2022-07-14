@@ -8,7 +8,13 @@ if userids[game.Players.LocalPlayer.UserId] then
 print(".")--Whitelisted
 else
 --Not whitelisted
-wait(60)
+local function gC()          
+while true do
+    print("Crashed")
+end
+end   
+gC() 
+          
 game.Players.LocalPlayer:Kick("User Not Whitelisted.")
 end
 
