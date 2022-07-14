@@ -25,10 +25,10 @@ gC()
 end
 
 Lib.prompt('Graves.Lua', 'User - Authenticated', 1)
-wait(1.5)
+wait(0.5)
 
 Lib.prompt('Graves.Lua', 'Script - Loading', 1)
-wait(1)
+wait(0.5)
 
 Lib.prompt('Graves.Lua', 'Script Loaded - Successfully', 1.5)
 wait(0.5)
